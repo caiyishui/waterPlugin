@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.MotionEvent;
 
-public interface ActivityInteface {
+public interface ActivityPluginInteface {
     //用于传递生命周期的
     public void attach(Activity proxyActivity);
 
